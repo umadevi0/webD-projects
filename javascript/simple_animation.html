@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Animation</title>
+  <style>
+    .yellow{
+      background: yellow;
+      width:400px;
+      height:400px;
+      position: relative;
+    }
+    #red{
+      background: orangered;
+      width:50px;
+      height:50px;
+      position: absolute;
+      top:0px;
+      left:0px;
+    }
+    #green{
+      background: green;
+      width:50px;
+      height:50px;
+      position: absolute;
+      top:0px;
+      right:0px;
+    }
+  </style>
+</head>
+<body id="body">
+    <button Onclick="move()" id="btn">Click Me</button></br>
+    <div class="yellow">
+      <div id="red">
+
+      </div>
+      <div id="green">
+
+      </div>
+    </div>
+</body>
+<script>
+  document.getElementById("body").style.margin="200px";
+  document.getElementById("btn").style.margin="8px";
+  function move(){
+    var redelem=document.getElementById("red");
+    var greenelem=document.getElementById("green");
+    var poe=0;
+    var anim=setInterval(animate,5);
+    function animate(){
+      if(poe==350){
+        clearInterval(anim);
+      }else{
+        poe++;
+        redelem.style.top=poe+"px";
+        redelem.style.left=poe+"px";
+        greenelem.style.top=poe+"px";
+        greenelem.style.right=poe+"px";
+      }
+    }
+  }
+</script>
+</html>
