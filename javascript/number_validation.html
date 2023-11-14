@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Number Verification</title>
+</head>
+<body id="body">
+    <h2>Verify Your Phone Number</h2>
+    <input type="text" name="" onkeyup="val(this)">
+    <div id="res"></div>
+</body>
+<script>
+  document.getElementById("res").style.color="red";
+  document.getElementById("body").style.margin="250px";
+  function val(elem){
+    if(isNaN(elem.value)){
+      document.getElementById("res").innerText = "Enter Only Numbers";
+    }else{
+      document.getElementById("res").innerText = "";
+      if(elem.value.length>10){
+        document.getElementById("res").innerText = "Number is too long!";
+      }else{
+        document.getElementById("res").innerText = "";
+      }
+    }
+  }
+</script>
+</html>
