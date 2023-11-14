@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print a Page or specific content</title>
+</head>
+<body id="body">
+    <div id="data">
+      <div id="data1">
+        <h2>This is the data to be printed for specific content.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in veritatis iure quam, nostrum ut eaque vel maiores ad velit at officiis impedit, magnam quos delectus fugit laudantium rem nisi?</p>
+        <button Onclick="printcontent()">Print Above Only</button>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in veritatis iure quam, nostrum ut eaque vel maiores ad velit at officiis impedit, magnam quos delectus fugit laudantium rem nisi?</p>
+      </div>
+      <button onclick="printall()">Print All</button>
+    </div>   
+</body>
+<script>
+  document.getElementById("body").style.margin="250px";
+  function printcontent(){
+    var body=document.getElementById("body").innerHTML;
+    var data1=document.getElementById("data1").innerHTML;
+    document.getElementById("body").innerHTML=data1;
+    window.print();
+    document.getElementById("body").innerHTML=body;
+  }
+  function printall(){
+    var body=document.getElementById("body").innerHTML;
+    var data=document.getElementById("data").innerHTML;
+    document.getElementById("body").innerHTML=data;
+    window.print();
+    document.getElementById("body").innerHTML=body;
+  }
+</script>
+</html>
