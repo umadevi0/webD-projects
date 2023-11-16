@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get and set attribute</title>
+  <style>
+    .red{
+      color:red;
+    }
+    .blue{
+      color:blue;
+    }
+    #body{
+      margin: 250px;
+    }
+    #test{
+      font-size: 50px;
+    }
+    #res{
+      font-size: 30px;  
+    }
+    #res1{
+      font-size: 30px;  
+    }
+    #btn{
+      width: 250px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body id="body">
+    <div id="test" class="red">Hello All!</div>
+    <h2 id="res"></h2>
+    <button onclick="attribute()" id="btn">Click Me!</button>
+    <h2 id="res1"></h2>
+</body>
+<script>
+  var test=document.getElementById("test");
+  function attribute(){
+    var cls=test.getAttribute("class");
+    document.getElementById("res").innerHTML='The class of the element  before clicking button is '+cls+'';
+    if(cls==="red"){
+      test.setAttribute("class","blue");
+    }else{
+      test.setAttribute("class","red");
+    }
+    var cls1=test.getAttribute("class");
+    document.getElementById("res1").innerHTML='The  class of the element after clicking button is '+cls1+'';
+  }
+</script>
+</html>
