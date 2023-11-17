@@ -44,13 +44,13 @@ This Weather App is a simple web application that allows users to check the curr
 
 4. **The app will display the current weather conditions for the entered city.**
 
+# Credits
+
+- Weather icons are sourced from the app's local "images" directory.
+
 # API Key
 
 To use this Weather App, you need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/) and replace the `apiKey` variable in the script with your key.
 
 ```javascript
 const apiKey = "YOUR_OPENWEATHERMAP_API_KEY";
-
-# Credits
-
-- Weather icons are sourced from the app's local "images" directory.
