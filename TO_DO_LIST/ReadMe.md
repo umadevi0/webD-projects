@@ -1,11 +1,9 @@
 # Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Technologies Used](#Technologies Used)
+- [TechnologiesUsed](#Technologies Used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The Todo List Web App is a simple task management application built using HTML, CSS, and JavaScript. It provides users with a clean and intuitive interface to add, track, and delete tasks. The app is designed to be responsive and user-friendly, allowing users to manage their tasks efficiently.
