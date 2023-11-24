@@ -1,7 +1,7 @@
 # Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [TechnologiesUsed](#Technologies Used)
+- [TechnologiesUsed](#TechnologiesUsed)
 - [Installation](#installation)
 - [Usage](#usage)
 
