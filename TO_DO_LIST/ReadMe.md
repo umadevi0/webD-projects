@@ -13,7 +13,7 @@ The Todo List Web App is a simple task management application built using HTML, 
 - **Task Management:** Mark tasks as completed by clicking on them, and delete tasks by clicking the delete button.
 - **Date and Time:** Each task includes the date and time it was added.
 - **Delete All:** Remove all tasks with a single click using the "Delete All" button.
-
+- **Persistent Storage:** Tasks are saved, so even if the browser is refreshed, your tasks will be restored.
 
 ## Technologies Used
 
