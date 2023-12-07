@@ -25,7 +25,7 @@ A simple web application for creating and managing notes, built using HTML, CSS,
 - **JavaScript:** Powers the dynamic functionality of creating, deleting, and editing notes.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/notes-app.git`
+1. Clone the repository: `git clone https://github.com/umadevi0/webD-projects.git`
 2. Open the project folder: `cd notes-app`
 3. Launch the application: Open `index.html` in your preferred web browser.
 
