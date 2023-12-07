@@ -31,7 +31,8 @@ This Weather App is a simple web application that allows users to check the curr
    ```bash
    git clone https://github.com/umadevi0/webD-projects.git
 
-2.Open the index.html file in a web browser to use the Weather App.
+2.Open the project folder: `cd Weather_App`
+3.Open the index.html file in a web browser to use the Weather App.
 
 
 # Usage

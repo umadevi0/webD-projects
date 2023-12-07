@@ -22,8 +22,11 @@ Generate strong and secure random passwords with this simple web application bui
 - **JavaScript:** Powers the password generation logic and clipboard copy functionality.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/umadevi0/webD-projects.git`
-2. Open the project folder: `cd random-password-generator`
+1.Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/umadevi0/webD-projects.git
+2. Open the project folder: `cd random_password_gen`
 3. Launch the application: Open `index.html` in your preferred web browser.
 
 ## Usage

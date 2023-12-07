@@ -27,7 +27,7 @@ The Todo List Web App is a simple task management application built using HTML, 
 
    ```bash
    git clone https://github.com/umadevi0/webD-projects.git
-2. Open the project folder: `cd todo-list`
+2. Open the project folder: `cd TO_DO_LIST`
 3. Run the app: Open `index.html` in your preferred web browser.
 
 ## Usage

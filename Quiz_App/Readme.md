@@ -22,8 +22,11 @@ The Simple Quiz App is an interactive web application created using HTML, CSS, a
 - **JavaScript:** Powers the quiz logic, user interactions, and dynamic content generation.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/umadevi0/webD-projects.git`
-2. Open the project folder: `cd quiz-app`
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/umadevi0/webD-projects.git
+2. Open the project folder: `cd Quiz_App`
 3. Launch the app: Open `index.html` in a modern web browser.
 
 ## Usage

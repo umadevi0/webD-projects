@@ -22,7 +22,10 @@ The JavaScript Age Calculator is a web application that allows users to calculat
 - **JavaScript:** Powers the age calculation logic and dynamic date validation.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/umadevi0/webD-projects.git`
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/umadevi0/webD-projects.git
 2. Open the project folder: `cd Age_Calculator`
 3. Run the app: Open `index.html` in your preferred web browser.
 
