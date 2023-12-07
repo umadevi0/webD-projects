@@ -23,7 +23,7 @@ The JavaScript Age Calculator is a web application that allows users to calculat
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/umadevi0/webD-projects.git`
-2. Open the project folder: `cd age-calculator`
+2. Open the project folder: `cd Age_Calculator`
 3. Run the app: Open `index.html` in your preferred web browser.
 
 ## Usage

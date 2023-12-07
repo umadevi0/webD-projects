@@ -23,7 +23,10 @@ The Todo List Web App is a simple task management application built using HTML, 
 
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/umadevi0/webD-projects.gitt`
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/umadevi0/webD-projects.git
 2. Open the project folder: `cd todo-list`
 3. Run the app: Open `index.html` in your preferred web browser.
 
