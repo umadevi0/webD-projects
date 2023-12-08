@@ -7,6 +7,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Styling](#styling)
+
 ## Introduction
 The JavaScript Age Calculator is a web application that allows users to calculate their age based on the provided birthdate. Built using HTML, CSS, and JavaScript, the app provides a user-friendly interface to input the birthdate and obtain the age in years, months, and days.
 

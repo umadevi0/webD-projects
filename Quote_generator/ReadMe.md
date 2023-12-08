@@ -1,5 +1,13 @@
 # Daily Quote
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Styling](#styling)
+
 ## Introduction
 The Daily Quote web application provides users with a daily inspirational quote sourced from the "Quotable API." Developed using HTML, CSS, and JavaScript, the app aims to offer a moment of reflection and motivation to users.
 
