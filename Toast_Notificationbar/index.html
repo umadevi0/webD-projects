@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toast Notification Bar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/49f35b0c96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="buttons">
+    <button onclick="popup(successmsg)">Success</button>
+    <button onclick="popup(errormsg)">Error</button>
+    <button onclick="popup(invalidMsg)">Invalid</button>
+  </div>
+  <div id="toastBox"></div>
+</body>
+<script>
+  let toastBox=document.getElementById('toastBox');
+  let successmsg='<i class="fa-solid fa-circle-check"></i> Successfully submitted';
+  let errormsg='<i class="fa-solid fa-circle-xmark"></i> Please fix error!';
+  let invalidMsg=' <i class="fa-solid fa-circle-exclamation"></i> Invalid input, try again';
+  function popup(msg){
+    let toast=document.createElement('div');
+    toast.classList.add('toast');
+    toast.innerHTML=msg;
+    toastBox.appendChild(toast);
+    if(msg.includes('error')){
+      toast.classList.add('error');
+    }
+    if(msg.includes('Invalid')){
+      toast.classList.add('invalid');
+    }
+    setTimeout(()=>{
+      toast.remove();
+    },6000);
+  }
+</script>
+</html>
