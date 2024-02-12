@@ -28,7 +28,7 @@
   margin: 40px 0;
   padding: 35px;
   border-radius: 10px;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
   display:flex;
   align-items: center;
 }
@@ -61,7 +61,7 @@
   height:auto;
   position:absolute;
   cursor:pointer;
-  background-position: calc(100% - 10px);
+  background-position: calc(100% - 10px);/*image is positioned exactly at the right edge of the element, with a 10 pixel margin from the edge*/
   background-size: 30px;
 }
 #result{

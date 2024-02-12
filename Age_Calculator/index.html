@@ -19,7 +19,8 @@
   </div>
   <script>
     let inputValue=document.getElementById("date");
-    inputValue.max=new Date().toISOString().split("T")[0];
+    inputValue.max=new Date().toISOString().split("T")[0];//sets the input field's maximum date to the current date, by converting the current date to an ISO 8601 string, splitting it at the "T" character, and setting the maximum date to the first part (representing the date), preventing the user from selecting a date in the future.
+
     let answer=document.getElementById("result");
     function Calculate(){
       let givenDate=new Date(inputValue.value);
@@ -53,7 +54,8 @@
       answer.innerHTML=`You are <span>${y3}</span> Years ,<span>${m3}</span> Months and <span>${d3}</span> Days old`;
     }
     function getDaysInMonth(year,month){
-      return new Date(year,month,0).getDate();
+      return new Date(year,month,0).getDate();  //When you pass the argument 0 as the day to the Date constructor, it automatically sets the day to the last day of the previous month. Therefore, getDate() on Date object,  will return the number of days in the specified month
+      //example-console.log(getDaysInMonth(2023, 2)); // Outputs: 28 
     }
   </script>
 </body>
